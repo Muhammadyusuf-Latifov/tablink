@@ -5,10 +5,10 @@ import { FaInstagram, FaRegMessage } from "react-icons/fa6";
 import { FiMail } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
 import { TiArrowBack } from "react-icons/ti";
-import { useNavigate } from "react-router-dom";
+
 
 const Home = () => {
-  const navigate = useNavigate();
+ 
   return (
     <section className="w-full h-screen flex items-center justify-center">
       <div className="container ">
@@ -79,10 +79,10 @@ const Home = () => {
               </button>
             </a>
             <button
-              onClick={() => navigate(-1)}
+            
               className="w-[100%]  shadow-md py-[14px] flex items-center justify-center gap-[8px] bg-[#ececec] rounded-[10px] duration-150 hover:opacity-[.9]"
             >
-              <TiArrowBack /> Back
+              <TiArrowBack /> About me coming soon
             </button>
           </div>
         </div>
