@@ -63,7 +63,7 @@ const Home = () => {
             </a>
 
             <a
-              href="https://t.me/abdulatifoov_m"
+              href="https://t.me/music_azc"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -78,10 +78,7 @@ const Home = () => {
                 Send Message <FaRegMessage />
               </button>
             </a>
-            <button
-            
-              className="w-[100%]  shadow-md py-[14px] flex items-center justify-center gap-[8px] bg-[#ececec] rounded-[10px] duration-150 hover:opacity-[.9]"
-            >
+            <button className="w-[100%]  shadow-md py-[14px] flex items-center justify-center gap-[8px] bg-[#ececec] rounded-[10px] duration-150 hover:opacity-[.9]">
               <TiArrowBack /> About me coming soon
             </button>
           </div>
